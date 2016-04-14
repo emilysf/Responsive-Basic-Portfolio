@@ -252,10 +252,6 @@ input[type=submit]:hover {
 	nav {
 		margin-right:5%;
 	}
-	#masthead {
-		position:static;
-		margin-bottom:0;
-	}
 	#logo {
 		margin-left:2%;
 	}
@@ -263,7 +259,6 @@ input[type=submit]:hover {
 		width:95%;
 		margin-left:3%;
 		margin-right:3%;
-		margin-top: -14%;
 	}
 	.sidebar {
 		float:left;
