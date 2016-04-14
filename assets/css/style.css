@@ -81,11 +81,11 @@ nav a {
 	padding-left: 15px;
 	line-height: 18px;
 }
-nav a:hover {
-	color: #4aaaa5;
-}
 nav a:first-child {
 	border-left: 0 none;
+}
+nav a:hover {
+	color:#4aaaa5;
 }
 
 /*footer*/
@@ -129,8 +129,7 @@ h3,
 	margin-right: 0;
 }
 .social:hover {
-	opacity: .8;
-	cursor: pointer;
+	opacity:0.8;
 }
 
 /*main*/
@@ -221,5 +220,88 @@ input[type=submit] {
 	cursor: pointer;
 }
 input[type=submit]:hover {
-	background: #ccc;
+	background-color: #ccc;
 }
+
+/* MEDIA QUERIES 980PX */
+
+@media screen and (max-width: 980px){
+	nav{
+		margin-right: 5%;
+	}
+	#logo{
+		margin-left: 5%;
+	}
+
+	.auth-image{
+		with: 100%;
+	}
+	.main-section {
+    margin-top: 3%;
+    width: 55%;
+    margin-left: 5%;
+    float: left;
+}
+	.sidebar{
+	margin-top: 3%;
+	margin-right: 5%;
+	}
+	.work{
+		width: 100%;
+	}
+
+
+
+/* MEDIA QUERIES 768PX */
+
+@media screen and (max-width: 768px){
+	#logo{
+		width:35%;
+		margin: 2%;
+	}
+	nav{
+		margin-right: 5%;
+
+	}
+	.main-section{
+		margin-top: 100px;
+		width: 95%;
+		margin: 2%;
+	}
+	.auth-image{
+		width: 50%;
+	}
+	.sidebar{
+		margin-left: 30%;
+		float: left;
+	}
+	.work{
+		width: 46%;
+	}
+
+/* MEDIA QUERRIES 640 */
+
+@media screen and (max-width: 640px){
+	#logo{
+		width:100%;
+	}
+	nav{
+		width:100%;
+		text-align: center;
+		margin-top: -1%;
+		}
+	.main-section{
+		margin-top: 100px;
+		width: 95%;
+		margin: 2%;
+	}
+	.auth-image{
+		width: 100%;
+	}
+	.sidebar{
+		float:left;
+		margin-left: 30%;
+	}
+	.work{
+		width: 100%;
+	}
